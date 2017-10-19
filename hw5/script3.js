@@ -19,11 +19,13 @@ function add(){
 		let strongone = document.createElement("strong");
 		let first = document.createElement("td");
 		let second = document.createElement("td");
-		let third =  document.createElement("td").appendChild( strongone );
+		let third =  document.createElement("td");
+
+		third.appendChild( strongone );
 		
-		first.innerText = name.value;
-		second.innerText = surname.value;
-		strongone.innerText = faculty.value;
+		first.textContent = name.value;
+		second.textContent = surname.value;
+		strongone.textContent = faculty.value;
 
 		let newSt = document.createElement("tr");
 		newSt.appendChild(first);
