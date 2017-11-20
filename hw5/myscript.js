@@ -12,6 +12,7 @@ function onClick(){
 	let thirdthird = parseInt( document.querySelector("#thirdthird").value);
 	let ans = firstfirst*secondsecond*thirdthird+firstsecond*secondthird*thirdfirst+secondfirst*thirdsecond*firstthird;
 	ans = ans - firstthird*secondsecond*thirdfirst-firstsecond*secondfirst*thirdthird-secondthird*thirdsecond*firstfirst;
+	ans = firstthird*secondsecond*thirdthird;
 	content.textContent=ans;
 }
 let x = document.querySelector("#find");
