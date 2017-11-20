@@ -20,7 +20,6 @@
 
 				<li><a href="index.php" class = "">Home</a></li>
 				<li><a href="faq.php">FAQ</a></li>
-				<li><a href="about.php">About</a></li>
 				<li><a href="login.php"><?php if (!isset($_COOKIE['userid'])){echo "Sign In | Sign Up";}else{echo "Profile";} ?></a></li>
 			  </ul>
 		  </div>
